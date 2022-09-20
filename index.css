@@ -9,15 +9,20 @@
     margin: 0;
     scroll-behavior: smooth;
     text-decoration: none;
-    object-fit: contain;
-    max-width: 1440px;
-    max-height: 900px;
+    
+ 
   }
 }
 
 @font-face {
   font-family: "South\ Australia.ttf";
   src: url(./South\ Australia.ttf);
+}
+@media (min-width: 480px){
+  body{
+    max-width: 1440px;
+    max-height: 900px;
+  }
 }
 .header {
   display: flex;
@@ -155,7 +160,7 @@
 .portada:before {
   margin-top: 125px;
   content: "";
-  width: 100%;
+max-width: 1440px;
   min-height: 250px;
   position: absolute;
   top: 0;
@@ -267,6 +272,11 @@
     font-size: 16px;
   }
 }
+.imagen-staff{
+   width: 100%;
+  display: flex;
+  flex-direction: column;
+}
 .texto-p {
   width: 60%;
   height: 100%;
@@ -277,11 +287,12 @@
 @media (min-width: 480px)
 {.texto-p {
   display: flex;
-  width: 100%;
+  width: 80%;
   height: 100%;
   padding: 40px 30px;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
 
 }
