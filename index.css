@@ -29,13 +29,14 @@
 }
 .nav-bar {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   gap: 20px;
   align-items: center;
   list-style-type: none;
   padding: 0%;
   margin-bottom: 10px;
+  font-size: 10px;
 }
 
 .list-nav {
@@ -50,7 +51,7 @@
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 20px;
-  height: 8em;
+  height: 5em;
 }
 .hover {
   font-family: "Cinzel", serif;
@@ -71,10 +72,10 @@
   z-index: 1;
 }
 .portada:before {
-  margin-top: 276px;
+  margin-top: 125px;
   content: "";
   width: 100%;
-  min-height:325px;
+  min-height: 250px;
   position: absolute;
   top: 0;
   left: 0;
