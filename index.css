@@ -3,6 +3,7 @@
   scroll-behavior: smooth;
   text-decoration: none;
   object-fit: contain;
+
 }
 @media (){
   * {
@@ -20,8 +21,7 @@
 }
 @media (min-width: 850px){
   body{
-    max-width: 1440px;
-    max-height: 900px;
+
   }
 }
 .header {
@@ -30,7 +30,7 @@
    align-items: center;
   font-size: 14px;
   text-decoration: none;
-padding: 5px;
+  top: 0;
   background: linear-gradient(
     108deg,
     rgba(255, 255, 255, 1) 17%,
@@ -40,7 +40,7 @@ padding: 5px;
     rgba(201, 187, 246, 1) 100%
   );
   position: sticky;
-  top: 0;
+ 
   z-index: 2;
   width: 100%;
 }
@@ -161,7 +161,6 @@ padding: 5px;
 .portada:before {
   margin-top: 125px;
   content: "";
-max-width: 1440px;
   min-height: 250px;
   position: absolute;
   top: 0;
@@ -181,7 +180,7 @@ max-width: 1440px;
     margin-top: 170px;
     content: "";
     width: 100%;
-    min-height: 700px;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
