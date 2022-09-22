@@ -18,7 +18,7 @@
   font-family: "South\ Australia.ttf";
   src: url(./South\ Australia.ttf);
 }
-@media (min-width: 480px){
+@media (min-width: 850px){
   body{
     max-width: 1440px;
     max-height: 900px;
@@ -27,10 +27,10 @@
 .header {
   display: flex;
   justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
-  font-size: 16px;
+   align-items: center;
+  font-size: 14px;
   text-decoration: none;
+padding: 5px;
   background: linear-gradient(
     108deg,
     rgba(255, 255, 255, 1) 17%,
@@ -44,7 +44,7 @@
   z-index: 2;
   width: 100%;
 }
-@media (min-width: 480px) {
+@media (min-width: 850px) {
   .header {
     flex-direction: row;
     align-items: center;
@@ -66,10 +66,10 @@
 }
 .list-nav {
   text-shadow: 5px 5px 10px rgb(78, 6, 119);
-  display: flex;
-  text-decoration: none;
+    text-decoration: none;
   list-style: none;
   padding-left: 0%;
+  
 }
 @media (min-width: 480px){
   .list-nav{
@@ -129,7 +129,8 @@
   width: 100%;
   display: flex;
   background-image: url(./img/ACADEMIAXS.jpg);
-  height: 15em;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 @media (min-width: 480px){
   .portada {
@@ -197,7 +198,7 @@ max-width: 1440px;
 }
 .leyenda {
   text-align: center;
-  font-size: 60px;
+  font-size: 30px;
   font-family: "Secular One", sans-serif;
   color: rgb(245, 233, 247);
   text-shadow: 5px 5px 10px rgba(20, 7, 95, 0.726);
