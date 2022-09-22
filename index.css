@@ -3,6 +3,7 @@
   scroll-behavior: smooth;
   text-decoration: none;
   object-fit: contain;
+  list-style-type: none;
 
 }
 @media (){
@@ -88,7 +89,7 @@
   justify-content: center;
   gap: 20px;
   align-items: center;
-  list-style-type: none;
+  list-style-type: decimal;
   padding: 0%;
   margin-bottom: 10px;
   font-size: 10px;
