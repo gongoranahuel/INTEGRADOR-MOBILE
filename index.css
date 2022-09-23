@@ -20,11 +20,7 @@
   font-family: "South\ Australia.ttf";
   src: url(./South\ Australia.ttf);
 }
-@media (min-width: 850px){
-  body{
 
-  }
-}
 .header {
   display: flex;
   justify-content: space-around;
@@ -513,386 +509,188 @@ textarea:focus {
   display: flex;
 }
 
-/*@media (min-width: 480px) {
-  html {
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-    max-width: 1400px;
-    box-sizing: border-box;
+.logo2{
+  height: 100%;
+}
+@media (min-width: 320px){
+  .logo2{
+      width: 200px;
+      height: 10em;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-radius: 20px;
   }
-
-  body {
-    max-width: 1400px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+  .seccion-reg{
+      display: flex;
+      margin-top: 0%;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      justify-content: space-around;
+      background-image: url(./img/polvodeladrillos.jpg);
+      
+  flex-direction: column;
+  align-items: center;
   }
-
-  header {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
-    font-size: 16px;
-    text-decoration: none;
-    background: linear-gradient(
-      108deg,
-      rgba(255, 255, 255, 1) 17%,
-      rgba(194, 187, 215, 1) 28%,
-      rgba(144, 132, 183, 1) 59%,
-      rgba(184, 180, 198, 1) 91%,
-      rgba(201, 187, 246, 1) 100%
-    );
-    position: sticky;
-    top: 0;
-    z-index: 2;
-  }
-
-  .logo {
-    height: 150px;
-  }
-  .nav-var {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  .ul-header {
-    width: 100%;
-    height: 150px;
-    display: flex;
-    justify-content: space-around;
-    box-sizing: border-box;
-    align-items: center;
-    padding: 20px;
-    background: rgb(255, 255, 255);
-    background: linear-gradient(
-      108deg,
-      rgba(255, 255, 255, 1) 17%,
-      rgba(194, 187, 215, 1) 28%,
-      rgba(144, 132, 183, 1) 59%,
-      rgba(184, 180, 198, 1) 91%,
-      rgba(201, 187, 246, 1) 100%
-    );
-  }
-  li {
-    list-style: none;
-    margin-right: 20px;
-    font-size: 25px;
-    font-weight: bold;
-  }
-  .hover :hover {
-    color: #526ea3;
-  }
-  li a {
-    text-decoration: none;
-    color: #070c01;
-  }
-  .link {
-    text-decoration: none;
-    color: #1a2537;
-    font-weight: 600;
-  }
-  .link:hover {
-    color: cadetblue;
-  }
-  .portada {
-    margin: 0;
-    width: 100%;
-    background-image: url(./img/academia.jpeg);
-    background-position: center;
-    height: 500px;
-    background-attachment: fixed;
-    display: flex;
-    align-content: stretch;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
-  }
-  .portada2 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  .leyenda {
-    text-align: center;
-    font-size: 150px;
-    font-family: "South\ Australia.ttf";
-    src: url(./South\ Australia.ttf);
-    color: rgb(9, 2, 70);
-  }
-  .boton-equipo {
-    color: #fff;
-    border: 3px solid #fff;
-    background: transparent;
-    font-weight: 600;
-    font-size: 20px;
-    border-radius: 10px;
-    border-width: 1px;
-    padding: 15px 30px 13px;
-    font-family: "Cinzel", serif;
-  }
-  .boton-equipo:hover {
-    color: rgb(6, 65, 65);
-    background-color: #fff;
-  }
-
-  .portada:before {
-    margin-top: 149px;
-    content: "";
-    width: 1400px;
-    min-height: 60%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: rgb(184, 180, 198);
-    background: linear-gradient(
-      108deg,
-      rgba(184, 180, 198, 1) 18%,
-      rgb(240, 238, 248) 100%
-    );
-    opacity: 0.5;
-    background-attachment: fixed;
-    z-index: 0;
-  }
-  .section-acade {
-    margin-top: 60px;
-    margin-bottom: 60px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-    text-align: center;
-    background: url(./img/head.jpg);
-    opacity: 0.8;
-    color: #fff;
-    align-items: center;
-  }
-  .texto-p {
-    width: 55%;
-    height: 100%;
-    padding: 50px 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #0000002e;
-  }
-
-  h3 {
-    font-weight: 600;
-    font-size: 50px;
-  }
-  .section1 {
-    height: 100vh;
-    display: grid;
-    place-items: center;
-    font-size: 50px;
-    font-weight: bold;
-    background: #eee;
-  }
-
-  h2 {
-    font-weight: 400;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 40px;
-  }
-  .linea {
-    background-color: #526ea3;
-    width: 100%;
-    height: 5px;
-    display: block;
-  }
-
-  .galeria {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    width: 100%;
-    margin: auto;
-    grid-gap: 10px;
-    padding: 40px;
-    overflow: hidden;
-  }
-  .galeria > a {
-    display: block;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
-  }
-  .galeria img {
-    width: 100%;
-    height: 100%;
-    vertical-align: top;
-    height: 300px;
-    object-fit: cover;
-    transition: transform 0, 5s;
-  }
-  .galeria a:hover img {
-    filter: blur(2px);
-    transform: rotate(8deg);
-    scale: (1.3);
-  }
-  .boxs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100vh;
-    transform: scale(0);
-    transition: transform 0.3s ease-in-out;
-  }
-  .boxs img {
-    width: 75vw;
-    max-height: 70vh;
-  }
-  .boxs:target {
-    transform: scale(1);
-  }
-  .close {
-    display: block;
-    position: absolute;
-    top: 40px;
-    right: 40px;
-    background: rgba(196, 5, 5, 0.5);
-    color: white;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50px;
-  }
-  .flecha {
-    display: block;
-    background: rgba(196, 5, 5, 0.5);
-    color: white;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50px;
-    text-decoration: none;
-  }
-
-  @media screen and (max-width: 350px) {
-    .close {
-      top: 20px;
-      right: 20px;
-    }
-  }
-
-  .section3 {
-    height: 100vh;
-    display: grid;
-    place-items: center;
-    font-size: 50px;
-    font-weight: bold;
-    background: #eee;
-  }
-
-  .section5 {
-    height: 100vh;
-    display: grid;
-    place-items: center;
-    font-size: 50px;
-    font-weight: bold;
-    background: #eee;
-  }
-
-
-
-  .footer {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    align-items: center;
-    width: 100%;
-    background-color: #3586ff;
-    min-height: 100px;
-    flex-direction: column;
-    background-color: #000000;
-    border-top: 2px solid #889bb1;
-    border-right: 2px solid #889bb1;
-    border-bottom: 2px solid #889bb1;
-    border-left: 2px solid #889bb1;
-    font-family: "Cinzel", serif;
-  }
-  .contacto2 {
-    display: flex;
-    background-color: #000000;
-  }
-  .social {
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
-    width: 100%;
-    font-size: 2em;
-    color: #fff;
-    margin: 0 10px;
-    display: inline-block;
-    transition: 0.5s;
-    background-color: #000000;
-  }
-  .social:hover {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-  }
-  .about {
-    display: flex;
-
-    background-color: #000000;
-  }
-  .team:hover {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-  }
-  .team {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 10px 0;
-    width: 100%;
-    font-size: medium;
-    color: #fff;
-    margin: 0 10px;
-    display: inline-block;
-    transition: 0.5s;
-    background-color: #000000;
-    font-family: "Cinzel", serif;
-  }
-  @media (min-width: 480px) {
-    .team {
-      justify-content: center;
-      align-items: center;
-      margin: 10px 0;
+  
+.contenedor{
+ 
+  display: flex;
+  width: 100%;
+  padding: 15px;
+  flex-direction: column;
+  align-items: center;
+}
+.contenedor-loguin {
+  display: flex;
+  width: 100%;
+  padding: 15px;
+  flex-direction: column;}
+.formu{
+  display: flex;
+  justify-content: space-around;
+  background-image: url(./img/polvodeladrillos.jpg);
+  flex-direction: column;
+  align-items: center;
+}
+.formulario{
+  background: #ffffff4a;
+  padding: 3px;
+  margin: auto;
+  width: 500px;
+  margin-top: 150px;
+  border-radius: 2%;
+  background: #ffffff87;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+@media (min-width: 320px){
+  .formulario{
       width: 100%;
-      font-size: 1em;
-      color: #fff;
-      margin: 0 10px;
-      display: inline-block;
-      transition: 0.5s;
-      background-color: #000000;
-      font-family: "Cinzel", serif;
-    }
+             background: #ffffff4a;
+      padding: 5px;
+      margin: 0%;
+      background: #ffffff87;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
   }
-
-  .team2 {
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
-    width: 100%;
-    font-size: 1em;
-    color: #fff;
-    margin: 0 10px;
-    display: inline-block;
-    transition: 0.5s;
-    background-color: #000000;
-    font-family: "Cinzel", serif;
+}.formulario2{
+  background: #ffffff4a;
+  padding: 3px;
+  margin: auto;
+  width: 500px;
+  margin-top: 150px;
+  border-radius: 2%;
+  background: #ffffff87;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+@media (min-width: 320px){
+  .formulario2{
+   
+      font-size: 14px;
+      background: #ffffff4a;
+      padding-right: 5%;
+      margin: 0;
+      background: #ffffff87;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding-left: 5%;
   }
 }
+
+
+h1 {
+  color: #0d1728;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 1px 1px #0d1728;
+}
+
+input [type="text"], 
+input [type="password"]{
+  font-size: 20px;
+  width: 82%;
+  padding: 10px;
+  border: none;
+}
+.input-contenedor {
+  margin-bottom: 10px;
+  border: 1px solid #aaa;
+}
+.icon{
+  min-width: 50px;
+  text-align: center;
+  color: #1A2537;
+}
+.button{
+  width: 100%;
+  border: none;
+  color: white;
+  font-size: 20px;
+  background-color: #1a2537;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+}
+.button2{
+  width: 100%;
+  border: none;
+  color: white;
+  font-size: 20px;
+  background-color: #1a2537;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+}
+.button:hover{
+  background: cadetblue;
+}
+p{
+  text-align: center;
+}
+.link {
+  text-decoration: none;
+  color:  #1a2537;
+  font-weight: 600;
+  font-size: 30px;
+}
+.link:hover{
+  color: cadetblue;
+}
+@media(min-width:768px)
+{
+  .formulario{
+          margin: auto;
+          width: 500px;
+          margin-top: 150px;
+          border-radius: 2%;
+          background: #ffffff87;
+  }
+}
+
+.gradient-custom-2 {
+  background: #fccb90;
+  background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);   
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  }
+  
+  @media (min-width: 768px) {
+  .gradient-form {
+  height: 100vh !important;
+  }
+  }
+  @media (min-width: 769px) 
+  {
+  .gradient-custom-2 {
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  }
