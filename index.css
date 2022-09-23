@@ -72,7 +72,7 @@
   padding-left: 0%;
   
 }
-@media (min-width: 480px){
+@media (min-width: 850px){
   .list-nav{
   text-shadow: 5px 5px 10px rgb(78 6 119);
   display: flex;
@@ -89,13 +89,13 @@
   justify-content: center;
   gap: 20px;
   align-items: center;
-  list-style-type: decimal;
+  
   padding: 0%;
   margin-bottom: 10px;
   font-size: 10px;
 }
 
-@media (min-width: 480px){
+@media (min-width: 850px){
   .nav-bar
   {
     display: flex;
@@ -112,7 +112,7 @@
   border-radius: 20px;
   height: 5em;
 }
-@media (min-width: 480px){
+@media (min-width: 850px){
   .logo { margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 20px;
@@ -133,7 +133,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media (min-width: 480px){
+@media (min-width: 850px){
   .portada {
     object-fit: contain;
     max-width: 100%;
@@ -150,7 +150,7 @@
   justify-content: space-around;
   z-index: 1;
 }
-@media (min-width: 480px){
+@media (min-width: 850px){
   .portada2 {
     display: flex;
     align-items: center;
@@ -175,8 +175,9 @@
   opacity: 0.5;
   background-attachment: fixed;
   z-index: 0;
+  justify-content: center;
 }
-@media (min-width: 480px){
+@media (min-width: 850px){
   .portada:before {
     margin-top: 170px;
     content: "";
@@ -205,7 +206,7 @@
   transform: scale(: 3px);
   text-decoration: 3px rgb(2, 2, 2);
 }
-@media (min-width: 480px) {
+@media (min-width: 850px) {
   .leyenda{
   FONT-WEIGHT: 600;
     text-align: center;
@@ -227,7 +228,7 @@
   background-color: rgba(255, 246, 246, 0.26);
   border-color: rgba(0, 0, 0, 0.486);
 }
-@media (min-width: 480px){
+@media (min-width: 850px){
   .boton-equipo {
     color: #fff;
        font-size: 40px;
@@ -259,7 +260,7 @@
   font-family: "Cinzel", serif;
   font-size: 12px;
 }
-@media (min-width: 480px){
+@media (min-width: 850px){
   .section-acade {
     display: flex;
     justify-content: center;
@@ -285,7 +286,7 @@
   justify-content: center;
   flex-direction: column;
 }
-@media (min-width: 480px)
+@media (min-width: 850px)
 {.texto-p {
   display: flex;
   width: 80%;
@@ -312,7 +313,7 @@
   text-align: center;
  }
 
-@media (min-width: 480px){
+@media (min-width: 850px){
   .gale-h2 {
     margin-top: 20px;
     font-family: "Cinzel", serif;
